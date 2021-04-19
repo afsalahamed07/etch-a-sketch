@@ -17,7 +17,7 @@ init();
 // calling init function not working
 slider.addEventListener("input", () => {
     gridSize = slider.value;
-    showGridSize.textContent = `${gridSize} * ${gridSize}`;
+    showGridSize.textContent = `${gridSize} x ${gridSize}`;
     console.log(showGridSize);
     drawBoxes(gridSize);
     let boxes = document.querySelectorAll(".box");
